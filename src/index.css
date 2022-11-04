@@ -1,0 +1,74 @@
+/* google font lora */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
+
+/* variables */
+:root {
+  --natur: #e5d3bf;
+  --pastellBunt: #957dad;
+  --weiss: #f4f8f0;
+  --chinaRed: #aa381e;
+  --zartesViolett: #8c8da8;
+  --rosa: #ffc0cb;
+  --blau: #0000ff;
+  --violett: #8f00ff;
+  --zartesRosa: #f4dedb;
+  --gelb: #ffff00;
+  --gebleicht: #feefd6;
+  --grun: #00ff00;
+  --rot: #ff0000;
+  --grau: #808080;
+  --naturWeiss: #f8f7ed;
+
+  --gray: #7e7e7e;
+  --veryLightGray: #eee;
+  --white: #fff;
+  --dark: #1a1b1b;
+}
+
+/* global styles */
+*,
+*::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  color: var(--dark);
+}
+li {
+  color: var(--dark);
+}
+button {
+  font-family: inherit;
+}
+
+body {
+  padding: 2rem;
+  background-color: var(--veryLightGray);
+  font-family: 'Lora', serif;
+}
+
+/* app wrapper */
+.wrapper {
+  background-color: var(--white);
+  border-radius: 1rem;
+}
+
+@media (max-width: 425px) {
+  body {
+    padding: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

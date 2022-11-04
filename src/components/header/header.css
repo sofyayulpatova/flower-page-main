@@ -1,0 +1,6 @@
+.header {
+  border-bottom: 1px solid var(--veryLightGray);
+}
+.header h1 {
+  padding: 2rem;
+}

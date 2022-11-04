@@ -1,0 +1,16 @@
+.loading {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 3rem;
+  animation: fade 2s ease-in infinite;
+  letter-spacing: 5px;
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
